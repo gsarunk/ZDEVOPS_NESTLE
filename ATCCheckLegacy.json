@@ -275,7 +275,7 @@
 							"function displayFinding(finding, attr) {",
 							"    var priority = finding.$[\"atcfinding:priority\"];",
 							"    if (priority === \"1\") { //Error",
-							"        tests[\"ERROR: \" + finding.$[\"atcfinding:checkTitle\"] + \": \" + attr[\"adtcore:packageName\"] + \"/\" + attr[\"adtcore:type\"] + \"/\" + attr[\"adtcore:name\"] + \" by \" + attr[\"atcobject:author:author\"]] = true;",
+							"        tests[\"ERROR: \" + finding.$[\"atcfinding:checkTitle\"] + \": \" + attr[\"adtcore:packageName\"] + \"/\" + attr[\"adtcore:type\"] + \"/\" + attr[\"adtcore:name\"] + \" by \" + attr[\"atcobject:author:author\"]] = false;",
 							"    } else if (priority === \"2\") {  //Warning",
 							"        tests[\"WARNING: \" + finding.$[\"atcfinding:checkTitle\"] + \": \" + attr[\"adtcore:packageName\"] + \"/\" + attr[\"adtcore:type\"] + \"/\" + attr[\"adtcore:name\"] + \" by \" + attr[\"atcobject:author:author\"]] = true;",
 							"    }    else if (priority === \"3\") {  //Information",
