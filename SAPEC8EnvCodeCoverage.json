@@ -82,7 +82,7 @@
     },
     {
       "key": "coverage_min",
-      "value": "80",
+      "value": "50",
       "enabled": true,
       "type": "text"
     },
