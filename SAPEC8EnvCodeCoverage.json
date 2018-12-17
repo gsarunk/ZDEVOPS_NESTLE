@@ -76,13 +76,13 @@
     },
     {
       "key": "exclusion",
-      "value": "{\"name\":\"ZCL_ROMAN2ARABIC\",\"type\":\"CLAS/OCI\",\"reason\":\"Ref Package\"}",
+      "value": "{\"name\":\"ZDEVOPS_NESTLE_DEMO\",\"type\":\"CLAS/OCI\",\"reason\":\"Ref Package\"}",
       "enabled": true,
       "type": "text"
     },
     {
       "key": "coverage_min",
-      "value": "30",
+      "value": "80",
       "enabled": true,
       "type": "text"
     },
