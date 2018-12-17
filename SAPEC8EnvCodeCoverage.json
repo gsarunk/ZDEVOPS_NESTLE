@@ -46,7 +46,7 @@
     },
     {
       "key": "package",
-      "value": "ZOPENSAP",
+      "value": "ZDEVOPS_NESTLE",
       "enabled": true,
       "type": "text"
     },
