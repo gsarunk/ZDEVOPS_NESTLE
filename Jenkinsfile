@@ -13,7 +13,7 @@ pipeline{
 		bat "newman run ATCCheckLegacy.json --environment SAPEC8EnvCodeCoverage.json"
 	    }
 	}
-	
+/*	
 	stage('CD-Deploy To QA'){
 	    steps{
 		bat "newman run DeployToQuality.json --environment SAPEC8EnvCodeCoverage.json"
@@ -25,6 +25,7 @@ pipeline{
 		bat "newman run E2ETest.json --environment SAPEC8EnvCodeCoverage.json"
 	    }
 	}
+*/	
 	}
 }	
 
