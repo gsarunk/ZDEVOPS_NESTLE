@@ -33,7 +33,23 @@ CLASS ltcl_ZDEVOPS_NESTLE_DEMO IMPLEMENTATION.
                                         exp = 1 ).
   ENDMETHOD.
 
+  METHOD input_ii_output_2.
 
+*   when
+    DATA(l_arabic) = r_cut->to_arabic( i_roman = 'II').
+*   then
+    cl_abap_unit_assert=>assert_equals( act = l_arabic
+                                        exp = 2 ).
+  ENDMETHOD.
+  
+  METHOD input_iii_output_3.
+
+*   when
+    DATA(l_arabic) = r_cut->to_arabic( i_roman = 'III').
+*   then
+    cl_abap_unit_assert=>assert_equals( act = l_arabic
+                                        exp = 3 ).
+  ENDMETHOD.
 
 
   METHOD teardown.

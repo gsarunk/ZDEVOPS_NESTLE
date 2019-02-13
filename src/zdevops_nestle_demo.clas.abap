@@ -26,6 +26,8 @@ CLASS zdevops_nestle_demo IMPLEMENTATION.
         e_arabic = 1.
       WHEN 'II'.
         e_arabic = 2.
+      WHEN 'III'.
+        e_arabic = 3.  
     ENDCASE.
   ENDMETHOD.
 ENDCLASS.
